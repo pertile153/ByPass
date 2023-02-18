@@ -1,0 +1,73 @@
+{
+	"manifest_version": 3,
+	"name": "ByPass Links",
+	"description": "Burla alguns protetores e remove propagandas",
+	"version": "1.3",
+	"icons": {
+		"32": "icon32.png",
+		"72": "icon72.png",
+		"128": "icon128.png",
+		"320": "icon320.png"
+	},
+	"action": {
+		"default_icon": {
+			"32": "icon32.png",
+			"72": "icon72.png",
+			"128": "icon128.png",
+			"320": "icon320.png"
+		},
+		"default_title": "ByPass Links"
+	},
+	"permissions": [
+		"tabs",
+		"scripting"
+	],
+	"host_permissions": [
+		"*://tecnologiafuego/*"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.tecnologiafuego.com/*"
+			],
+			"js": [
+				"bludv.js"
+			]
+		},
+		{
+			"matches": [
+				"*://*.comando.la/*"
+			],
+			"js": [
+				"comandola.js"
+			]
+		},
+		{
+			"matches": [
+				"*://*.sabornutritivo.com/*"
+			],
+			"js": [
+				"filmeshdtorrent.js"
+			]
+		},
+		{
+			"matches": [
+				"*://*.game3rb.com/*"
+			],
+			"js": [
+				"game3rb.js"
+			]
+		},
+		{
+			"matches": [
+				"*://affelseaeinera.org/*",
+				"*://yiddiquitejuk.com/*",
+				"*://bc.game/*",
+				"*://topnewsway.com/*"
+			],
+			"js": [
+				"fechartab.js"
+			]
+		}
+	]
+}

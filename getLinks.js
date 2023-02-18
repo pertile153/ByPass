@@ -1,0 +1,1 @@
+window.location.href = document.getElementById("down").value;
