@@ -1,4 +1,4 @@
 { 
-    //Fecha tab
+    //Fecha tab quando aberta!
     close(); 
 }
