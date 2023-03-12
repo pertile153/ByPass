@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "ByPass Links",
 	"description": "Burla alguns protetores e remove propagandas",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"icons": {
 		"32": "icon32.png",
 		"72": "icon72.png",
@@ -28,7 +28,8 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"*://*.tecnologiafuego.com/*"
+				"*://*.tecnologiafuego.com/*",
+				"*://webstech.online/*"
 			],
 			"js": [
 				"bludv.js"
