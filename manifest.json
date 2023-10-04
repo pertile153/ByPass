@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "ByPass Links",
 	"description": "Burla alguns protetores e remove propagandas",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"icons": {
 		"32": "icon32.png",
 		"72": "icon72.png",
@@ -49,6 +49,14 @@
 			],
 			"js": [
 				"filmeshdtorrent.js"
+			]
+		},
+		{
+			"matches": [
+				"*://*.guiasaude.info/*"
+			],
+			"js": [
+				"guiasaude.js"
 			]
 		},
 		{
