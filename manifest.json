@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "ByPass Links",
 	"description": "Burla alguns protetores e remove propagandas",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"icons": {
 		"32": "icon32.png",
 		"72": "icon72.png",
@@ -34,6 +34,15 @@
 			],
 			"js": [
 				"bludv.js"
+			]
+		},
+		{
+			"matches": [				
+				"*://loucasporcabelos.com.br/*",
+				"*://decorardicas.com.br/*"
+			],
+			"js": [
+				"primetorrents.js"
 			]
 		},
 		{
